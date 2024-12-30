@@ -160,10 +160,11 @@ label{
 
 footer{
     width: 65%;
-    height: 35px;
+    height: 80px;
     border: 1px #005792;
     display: flex;
     justify-content: center;
+    align-items: center;
     background: linear-gradient(135deg, #ffca7f, #57caff);
     position: relative;
     left: 215px;
@@ -173,15 +174,27 @@ footer{
 
 #one{
    padding-top: 10px;
+   display: block;
+   justify-content: center;
+   position: relative;
+   left: 220px;
+   bottom: 7px;
+   font-style: italic;
+}
 
+a{
+    padding: 1px 3px;
+    display: inline-block;
+    position: relative;
+    left: 240px;
 }
 
 #two{
     display:inline-block;
     position: absolute;
-    top: 10px;
+    top: 30px;
+    left: 15px;
+    display: flex;
+    font-style: italic;
 }
 
-a{
-    padding: 0 25px;
-}
