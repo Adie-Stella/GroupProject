@@ -182,13 +182,6 @@ footer{
    font-style: italic;
 }
 
-a{
-    padding: 1px 3px;
-    display: inline-block;
-    position: relative;
-    left: 240px;
-}
-
 #two{
     display:inline-block;
     position: absolute;
@@ -196,5 +189,11 @@ a{
     left: 15px;
     display: flex;
     font-style: italic;
+}
+a{
+    padding: 1px 3px;
+    display: inline-block;
+    position: relative;
+    left: 240px;
 }
 
