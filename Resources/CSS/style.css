@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    /* background: url(../img/bcg.jpg) center / cover; */
+    /* background: url(https://static.vecteezy.com/system/resources/previews/047/795/548/non_2x/modern-interior-of-bright-clothing-store-collection-of-stylish-women-s-clothes-in-pastel-colors-on-rack-in-empty-modern-boutique-photo.jpg) center / cover; */
+    /* opacity: 0.3; */
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #57caff, #ffca7f);
+}
+
+.container{
+margin: 10px;
+padding: 10px;
+/* align-items: center; */
+}
+
+h1{
+    color: #005792;
+    margin: 30px;
+    text-align: center;
+    background: linear-gradient(135deg, #ffca7f, #53a4da);
+    width: 65%;
+    position: relative;
+    left: 180px;
+    border-radius: 2px;
+}
+
+h4{
+    color: #005792;
+    margin: 30px;
+    text-align: center;
+}
+
+p{
+    color:#00204a;
+}
+.Tcontent{
+    border-collapse: collapse;
+    /* margin: 25px 0; */
+    font-size: 0.9em;
+    min-width: 800px;
+    min-height: 300px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    border-left: #005792;
+    border-right: #005792;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.Tcontent thead tr{
+    background-color:#005792;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Tcontent th{
+  padding: 12px 15px;
+}
+
+.Tcontent td{
+    padding: 12px 15px;
+}
+
+.Tcontent tbody tr{
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.Tcontent tbody tr:nth-of-type(even){
+    background-color:#eee9e9c7;
+}
+
+.Tcontent tbody tr:last-of-type{
+    border-bottom: 2px solid #005792;
+}
+
+
+#image{
+    float: left;
+    height: 482px;
+    width:430px;
+    display: flex;
+    position: relative;
+    left: 200px;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form{
+height: 482px;
+width: 390px;
+padding: 10px 20px;
+justify-content: left;
+border-radius: 20px;
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+margin: auto;
+background: #b2daf5;
+position: relative;
+left: 210px;
+font-size: 15px;
+}
+
+.form input{
+    width: 100%;
+    height: 38px;
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 1px solid;
+    outline: none;
+    border-bottom-width: 2px;
+    padding: 5px;
+    background-color:#fff4f4c7
+}
+
+label{
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+
+.email{
+ padding-top: 15px;
+ margin-top: 12px;
+}
+
+.rating{
+    padding-top: 15px;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+.rating select{
+    margin-top: 12px;
+    padding: 10px;
+    font-size: 15px;
+    border-bottom-width: 2px;
+    border-radius: 2px;
+    background-color:#fff4f4c7
+}
+
+#comment{
+    padding: 5px;
+    border-bottom-width: 2px;
+    border-radius: 2px; 
+    background-color:#fff4f4c7
+}
+
+#button{
+    background: linear-gradient(135deg, #ffca7f, #57caff);
+    border: none;
+    border-radius: 20px;
+}
+
+footer{
+    width: 65%;
+    height: 35px;
+    border: 1px #005792;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, #ffca7f, #57caff);
+    position: relative;
+    left: 215px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    /* padding: auto 300px; */
+}
+
+#one{
+   padding-top: 10px;
+
+}
+
+#two{
+    display:inline-block;
+    position: absolute;
+    top: 10px;
+}
+
+a{
+    padding: 0 25px;
+}
