@@ -6,9 +6,6 @@
 }
 
 body{
-    /* background: url(../img/bcg.jpg) center / cover; */
-    /* background: url(https://static.vecteezy.com/system/resources/previews/047/795/548/non_2x/modern-interior-of-bright-clothing-store-collection-of-stylish-women-s-clothes-in-pastel-colors-on-rack-in-empty-modern-boutique-photo.jpg) center / cover; */
-    /* opacity: 0.3; */
     justify-content: center;
     align-items: center;
     background: linear-gradient(135deg, #57caff, #ffca7f);
@@ -17,7 +14,7 @@ body{
 .container{
 margin: 10px;
 padding: 10px;
-}
+} 
 
 h1{
     color: #005792;
@@ -39,9 +36,9 @@ h4{
 p{
     color:#00204a;
 }
+
 .Tcontent{
     border-collapse: collapse;
-    /* margin: 25px 0; */
     font-size: 0.9em;
     min-width: 800px;
     min-height: 300px;
@@ -49,8 +46,8 @@ p{
     overflow: hidden;
     border-left: #005792;
     border-right: #005792;
-   margin-left: auto;
-   margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Tcontent thead tr{
@@ -61,7 +58,7 @@ p{
 }
 
 .Tcontent th{
-  padding: 12px 15px;
+    padding: 12px 15px;
 }
 
 .Tcontent td{
@@ -81,7 +78,6 @@ p{
     border-bottom: 2px solid #005792;
 }
 
-
 #image{
     float: left;
     height: 482px;
@@ -95,18 +91,18 @@ p{
 }
 
 .form{
-height: 482px;
-width: 390px;
-padding: 10px 20px;
-justify-content: left;
-border-radius: 20px;
-border-top-left-radius: 0;
-border-bottom-left-radius: 0;
-margin: auto;
-background: #b2daf5;
-position: relative;
-left: 210px;
-font-size: 15px;
+    height: 482px;
+    width: 390px;
+    padding: 10px 20px;
+    justify-content: left;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin: auto;
+    background: #b2daf5;
+    position: relative;
+    left: 210px;
+    font-size: 15px;
 }
 
 .form input{
@@ -130,8 +126,8 @@ label{
 }
 
 .email{
- padding-top: 15px;
- margin-top: 12px;
+    padding-top: 15px;
+    margin-top: 12px;
 }
 
 .rating{
@@ -139,6 +135,7 @@ label{
     margin-top: 12px;
     margin-bottom: 0;
 }
+
 .rating select{
     margin-top: 12px;
     padding: 10px;
@@ -172,7 +169,6 @@ footer{
     left: 215px;
     border-radius: 5px;
     margin-bottom: 20px;
-    /* padding: auto 300px; */
 }
 
 #one{

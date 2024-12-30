@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Product Page</title>
-    <link rel="stylesheet" href="/Resources/CSS/style.css">
+    <link rel="stylesheet" href="Resources/CSS/style.css">
 </head>
 <body>
     <div class="container">
-    <!-- Do I have the main as the main section of the body -->
-    <!-- <main>   --> 
         <h1>HER TECHTRAIL ONE STOP FEMALE STORE</h1>
 
         <table border ="1"  class="Tcontent">
@@ -61,62 +59,60 @@
     <h4>Thank you for shopping with us. Kindly fill the form below to enable us get your feedbacks.</h4>
     
     <img src="https://plus.unsplash.com/premium_photo-1683134474181-8b88c82b6aa8?q=80&w=1777&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" id="image" alt="An image feedback">
-    <div class="form">
-        <form action="index.html">
-            <!-- <span style="font-size: 25px; color: #005792;">Feedback Form</span> -->
-            <div class="username">
-            <label for="username">Full Name:</label>
-            <br>
-            <input type="text" id="username" name="username" placeholder="Enter your name" pattern="[A-Za-z\s]+" required minlength="3">
-            <br>
-            </div>
+        <div class="form">
+            <form action="index.html">
+                <div class="username">
+                <label for="username">Full Name:</label>
+                <br>
+                <input type="text" id="username" name="username" placeholder="Enter your name" pattern="[A-Za-z\s]+" required minlength="3">
+                <br>
+                </div>
 
-            <div class="email">
-            <label for="email">Email:</label>
-            <br>
-            <input type="email" id="email" name="email" placeholder="Enter your Email" required>
-            <br>
-            </div>
+                <div class="email">
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                <br>
+                </div>
 
-            <div class="rating">
-            <label for="rating">Rating:</label>
-            <br>
-            <select name="rating" id="rating" style="width: 100%;" required>
-                <option value="">Select</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-            </select>
-            </div>
-            <br>
-            <div class="comment">
-            <label for="comment">Comments:</label>
-            <textarea  style="width: 100%; margin-top: 12px; font-size: 15px;"  name="comment" id="comment" rows="5" cols="30" minlength="2" required></textarea>
-            <br>
-            </div>
+                <div class="rating">
+                <label for="rating">Rating:</label>
+                <br>
+                <select name="rating" id="rating" style="width: 100%;" required>
+                    <option value="">Select</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                </div>
 
-            <br>
-            <input type="submit" value="Submit" id="button">
-        </form>
-    </div>
+                <br>
+                <div class="comment">
+                <label for="comment">Comments:</label>
+                <textarea  style="width: 100%; margin-top: 12px; font-size: 15px;"  name="comment" id="comment" rows="5" cols="30" minlength="2" required></textarea>
+                <br>
+                </div>
 
+                <br>
+                <input type="submit" value="Submit" id="button">
+            </form>
+        </div>
     </div>
 </body>
+
 <footer>
     <p id="one">Follow Us on Social Media</p>
-    <div>
     <ul style="list-style-type: none;">
         <li style="margin: 5px 0;">
-            <a href="https://facebook.com" target="_blank"><img src="/Resources/img/facebook.png" alt="Facebook Icon" width="25px" height="25px"></a>
-            <a href="https://x.com/Abbas_techie" target="_blank"><img src="/Resources/img/twitter.png" alt="Facebook Icon" width="25px" height="25px"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="/Resources/img/instagram.png" alt="Facebook Icon" width="25px" height="25px"></a>
-            <a href="https://www.linkedin.com/in/adie-attoe-981490aa/" target="_blank"><img src="/Resources/img/linkedin.png" alt="Facebook Icon" width="25px" height="25px"></a>
+            <a href="https://facebook.com" target="_blank"><img src="Resources/img/facebook.png" alt="Facebook Icon" width="25px" height="25px"></a>
+            <a href="https://x.com/Abbas_techie" target="_blank"><img src="Resources/img/twitter.png" alt="Facebook Icon" width="25px" height="25px"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="Resources/img/instagram.png" alt="Facebook Icon" width="25px" height="25px"></a>
+            <a href="https://www.linkedin.com/in/adie-attoe-981490aa/" target="_blank"><img src="Resources/img/linkedin.png" alt="Facebook Icon" width="25px" height="25px"></a>
             <p id="two">&copy;hertechtrail academy</p>
         </li>
     </ul>
-    </div>
 </footer>
 
 </html>
